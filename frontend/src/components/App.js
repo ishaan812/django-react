@@ -4,7 +4,9 @@ import { render } from 'react-dom'
 function App() {
   return (
     <div>
-        <div>Hello, world!dwdddwdsaddaddqsdwqdishaandopflepmf;le3msf;lemf;e3mfle</div>
+        <div className="font-bold text-3xl">
+          Hello, world!
+        </div>
     </div>
   )
 }
