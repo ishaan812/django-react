@@ -4,11 +4,11 @@ import { render } from 'react-dom'
 function App() {
   return (
     <div>
-        <h1>Hello World</h1>
+        <div>Hello, world!dwdddwdsaddaddqsdwqdishaandopflepmf;le3msf;lemf;e3mfle</div>
     </div>
   )
 }
 
-export default App
 const appdiv=document.getElementById("app")
 render(<App/>,appdiv);
+export default App
