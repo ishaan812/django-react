@@ -4,7 +4,7 @@ function Navbar() {
     const [show, setShow] = useState(false);
 
   return (
-    <nav className="w-full border-b sticky top-0 bg-gray-100">
+    <nav className="w-full border-b sticky top-0 bg-gray-100 z-10">
         <div className="py-5 md:py-0 container mx-auto px-6 flex items-center justify-between">
             <div aria-label="Home. logo" role="img">
                 <img className="w-12 md:w-auto" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/centre_aligned_simple-Svg1.svg" alt="logo" />
