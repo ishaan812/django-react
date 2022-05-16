@@ -1,11 +1,11 @@
 import React from 'react'
-import Navbar from './Navbar'
-import Landing from './Landing'
-import Content1 from './Content1'
-import Feature from './Feature'
-import Marketing from './MarketingSection'
-import Contact from './Contact'
-import Footer from './Footer'
+import Navbar from './components/Navbar'
+import Landing from './components/Landing'
+import Content1 from './components/Content1'
+import Feature from './components/Feature'
+import Marketing from './components/MarketingSection'
+import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 function Home() {
   return (
