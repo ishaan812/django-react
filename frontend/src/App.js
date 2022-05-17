@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 import Artist from "./Artist";
 import Home from "./Home"
+import Product from "./Product"
 
 
 function App() {
@@ -15,10 +16,17 @@ function App() {
     <div>
       <BrowserRouter>
       <Router>
+<<<<<<< Updated upstream
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="art" element={<Artist />} />
         </Routes>
+=======
+      <Routes>
+        <Route exact path="/" element={<Home/>} />
+        <Route path="/product" element={<Product/>} />
+      </Routes>
+>>>>>>> Stashed changes
       </Router>
       </BrowserRouter>
 

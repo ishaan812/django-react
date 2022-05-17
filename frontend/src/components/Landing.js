@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 const Landing=()=>{
-    const [show, setShow] = useState(false);
     return (
         <div className="h-screen bg-gray-100 pb-12 overflow-y-hidden" style={{ minHeight: 700 }}>
             {/* Code block starts */}
